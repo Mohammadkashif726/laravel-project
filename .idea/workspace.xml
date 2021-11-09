@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46477d14-a660-4e21-a52a-a7580fd14503" name="Default" comment="voucher code + email template for send payment details for batches">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Mail/SendPaymentReceiptMail.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/payment_receipt.blade.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/Backend/BatchController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Backend/BatchController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/Backend/OrderController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Backend/OrderController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/BatchController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/BatchController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/BatchShowResource.php" afterPath="$PROJECT_DIR$/app/Http/Resources/BatchShowResource.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/StudentShowResource.php" afterPath="$PROJECT_DIR$/app/Http/Resources/StudentShowResource.php" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Batch.php" afterPath="$PROJECT_DIR$/app/Models/Batch.php" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SendPaymentDetails.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Mail/SendPaymentDetails.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendPaymentReceiptMail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Mail/SendPaymentReceiptMail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment_receipt.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/payment_receipt.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="88" column="288" lean-forward="false" selection-start-line="88" selection-start-column="288" selection-end-line="88" selection-end-column="288" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1636067488292" expanded="true" signature="1453:1503" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="1860:1909" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="2256:2305" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="2696:2744" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="4798:4821" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="5583:5602" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="5583:5608" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="5815:5828" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="6195:6221" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="6428:6442" ph="..." />
+                <marker date="1636067488292" expanded="true" signature="8566:8589" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderStatus.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/OrderStatus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_11_22_105729_create_orders_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_22_105729_create_orders_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment_details.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/payment_details.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="84" column="47" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="84" selection-end-column="47" />
+              <folding>
+                <marker date="1635536948929" expanded="true" signature="1453:1503" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="1860:1909" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="2256:2305" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="2696:2744" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="4767:4790" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="6571:6601" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="6696:6742" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="7245:7294" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="7831:7866" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="8075:8096" ph="..." />
+                <marker date="1635536948929" expanded="true" signature="9206:9229" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersShowResource.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrdersShowResource.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BatchUserResource.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Resources/BatchUserResource.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3096">
+              <caret line="174" column="11" lean-forward="false" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>billing_discount</find>
+      <find>Order Reference:</find>
+      <find>backend/orders</find>
+      <find>BatchesResource</find>
+      <find>max_discount_amount</find>
+      <find>Please verify your email addr</find>
+      <find>/order</find>
+      <find>sendPa</find>
+      <find>sendPaymentDetails</find>
+      <find>store</find>
+      <find>profile</find>
+      <find>username</find>
+      <find>userName</find>
+      <find>/profile</find>
+      <find>profileShow</find>
+      <find>profile/batch/update</find>
+      <find>update</find>
+      <find>batch/update/</find>
+      <find>updateBatch</find>
+      <find>order/</find>
+      <find>show</find>
+      <find>order</find>
+      <find>Http.get(ORDER_SHOW + order_refere</find>
+      <find>foreac</find>
+      <find>foreach</find>
+      <find>where</find>
+      <find>-&gt;order_status</find>
+      <find>Mail</find>
+      <find>payment</find>
+      <find>or</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/Http/Resources</dir>
+      <dir>$PROJECT_DIR$/</dir>
+      <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$/database/migrations</dir>
+      <dir>$PROJECT_DIR$/app/Http/Controllers</dir>
+      <dir>$PROJECT_DIR$/app/Http/Controllers/API</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_14_234756_create_syllabi_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_14_234756_create_syllabus_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_14_234756_create_syllabuses_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SyllabusController.php" />
+        <option value="$PROJECT_DIR$/database/seeders/SyllabusSectionSeeder.php" />
+        <option value="$PROJECT_DIR$/database/factories/SyllabusSectionFactory.php" />
+        <option value="$PROJECT_DIR$/app/Models/SyllabusSectionTopic.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/SyllabusSectionCollection.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/SyllabusTopicLessonController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/SyllabusSectionTopicController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_14_234756_create_syllabus_sections_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_15_000923_create_syllabus_section_topics_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_15_000923_create_syllabus_topics_lessons_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/SyllabusSections.php" />
+        <option value="$PROJECT_DIR$/app/Models/SyllabusTopicLesson.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/SyllabusSectionController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/SyllabusTopicLessonsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/SyllabusSectionTopicsCollection.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/SyllabusTopicCollection.php" />
+        <option value="$PROJECT_DIR$/app/Models/SyllabusTopics.php" />
+        <option value="$PROJECT_DIR$/app/Models/SyllabusTopic.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/SyllabusTopicLessonsCollection.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_15_000923_create_syllabus_topic_lessons_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/SyllabusTopicController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/BatchShowResource.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_04_01_195254_create_batches_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/BatchGroupCollection.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/OrderController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_04_01_195638_create_batch_user.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_02_194403_add_generated_pwd_column_to_users.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_21_021057_add_group_id_to_batch_user.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/Backend/BatchesResource.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/BatchUserResource.php" />
+        <option value="$PROJECT_DIR$/app/Models/BatchUser.php" />
+        <option value="$PROJECT_DIR$/app/Mail/SendPaymetDetails.php" />
+        <option value="$PROJECT_DIR$/app/Mail/SendPaymentDetails.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_29_232856_create_user_vouchers_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_10_29_232744_create_vouchers_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/email_verification.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/payment_details.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/StudentShowResource.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Models/Batch.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/Backend/BatchController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/BatchController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/OrdersShowResource.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Mail/PaymentReceiptMail.php" />
+        <option value="$PROJECT_DIR$/app/Mail/SendPaymentReceiptMail.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/Backend/OrderController.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/payment_receipt.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ilmyst8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ilmyst8" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="emails" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="OrderStatus&#9;null&#9;null&#10;migration/order&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2019_11_22_105729_create_orders_table.php&#10;Order&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/Order.php&#10;Backend/OrderControll&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/Backend/OrderController.php&#10;api.&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/routes/api.php&#10;BatchController&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/BatchController.php&#10;models/&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models&#10;migration/fee&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_11_01_223535_add_fee_type_to_batches.php&#10;SearchTutorAPIController&#9;null&#9;null&#10;OrderController&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/Backend/OrderController.php&#10;createevent&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2019_02_23_132827_create_events_table.php&#10;create_voucher&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_10_29_232744_create_vouchers_table.php&#10;emails/&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/resources/views/emails&#10;Login&#9;null&#9;null&#10;create_order&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2019_11_22_105729_create_orders_table.php&#10;Backend/OrderController&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/Backend/OrderController.php&#10;api&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/routes/api.php&#10;OrdersShowResource&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Resources/OrdersShowResource.php&#10;Batch&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/BatchUser.php&#10;BatchUs&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/BatchUser.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/.env&#10;backend/BatchController&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/Backend/BatchController.php&#10;routes/api&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/routes/api.php&#10;createbatch&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_04_01_195254_create_batches_table.php&#10;migration/batchuser&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_04_01_195638_create_batch_user.php&#10;BatchUse&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/BatchUser.php&#10;ordercontrol&#9;null&#9;null&#10;BatchGroupCollection&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Resources/BatchGroupCollection.php&#10;BatchCon&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/BatchController.php&#10;createBatc&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_04_01_195254_create_batches_table.php&#10;SyllabusTopicController&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/SyllabusTopicController.php&#10;migration/lesson&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_10_15_000923_create_syllabus_topic_lessons_table.php&#10;migration/sylla&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_10_14_234756_create_syllabus_topics_table.php&#10;SyllabusSec&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/factories/SyllabusSectionFactory.php&#10;SyllabusSect&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Resources/SyllabusSectionCollection.php&#10;SyllabusS&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/SyllabusSectionController.php&#10;Models/Sylla&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/SyllabusSections.php&#10;SyllabusSectionController&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/SyllabusSectionController.php&#10;SyllabusSection&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/SyllabusSections.php&#10;BatchControll&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Controllers/API/BatchController.php&#10;batch&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Models/Batch.php&#10;Syllabus&#9;null&#9;null&#10;Syllab&#9;null&#9;null&#10;Syllabi&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2021_10_14_234756_create_syllabi_table.php&#10;tutorial_group&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/database/migrations/2020_08_21_115351_create_tutorial_groups_table.php&#10;user_created_by_admin_success&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/resources/views/emails/user_created_by_admin_success.blade.php&#10;BatchGroupCollec&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/app/Http/Resources/BatchGroupCollection.php&#10;config/app&#9;FILE&#9;file:///Applications/MAMP/htdocs/ilmyst8/config/app.php&#10;BatchScheduleCollection&#9;null&#9;null&#10;BatchSche&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/emails" />
+      <recent name="$PROJECT_DIR$/app/Mail" />
+      <recent name="$PROJECT_DIR$/app/Http/Resources" />
+      <recent name="$PROJECT_DIR$/app/Http/Resources/Backend" />
+      <recent name="$PROJECT_DIR$/database/migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/API" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46477d14-a660-4e21-a52a-a7580fd14503" name="Default" comment="" />
+      <created>1627128791305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627128791305</updated>
+      <workItem from="1627128923398" duration="8679000" />
+      <workItem from="1627152776991" duration="12952000" />
+      <workItem from="1627739900751" duration="12349000" />
+      <workItem from="1627881710449" duration="595000" />
+      <workItem from="1627883874800" duration="589000" />
+      <workItem from="1628096333646" duration="15000" />
+      <workItem from="1628341250479" duration="565000" />
+      <workItem from="1628355857935" duration="620000" />
+      <workItem from="1628406837695" duration="42000" />
+      <workItem from="1628413237178" duration="11284000" />
+      <workItem from="1628604362500" duration="687000" />
+      <workItem from="1628619771574" duration="12000" />
+      <workItem from="1628715355304" duration="1576000" />
+      <workItem from="1630044849198" duration="1028000" />
+      <workItem from="1630753141811" duration="14883000" />
+      <workItem from="1630859381039" duration="5035000" />
+      <workItem from="1630867346638" duration="3361000" />
+      <workItem from="1630916147539" duration="9796000" />
+      <workItem from="1631167699381" duration="1229000" />
+      <workItem from="1631169330240" duration="24801000" />
+      <workItem from="1631435333344" duration="16506000" />
+      <workItem from="1631963700651" duration="619000" />
+      <workItem from="1631966817377" duration="2661000" />
+      <workItem from="1632034005781" duration="256000" />
+      <workItem from="1632055534759" duration="43000" />
+      <workItem from="1632353761992" duration="997000" />
+      <workItem from="1632512628006" duration="3375000" />
+      <workItem from="1632597862628" duration="2864000" />
+      <workItem from="1632756856823" duration="302000" />
+      <workItem from="1632757542780" duration="8870000" />
+      <workItem from="1633132260946" duration="16973000" />
+      <workItem from="1633253817816" duration="215000" />
+      <workItem from="1633271909828" duration="10752000" />
+      <workItem from="1633481421041" duration="6225000" />
+      <workItem from="1633842562169" duration="9037000" />
+      <workItem from="1633938164694" duration="6546000" />
+      <workItem from="1634236497166" duration="6341000" />
+      <workItem from="1634377083345" duration="3278000" />
+      <workItem from="1634473419567" duration="4307000" />
+      <workItem from="1634502087403" duration="2089000" />
+      <workItem from="1634672523938" duration="3473000" />
+      <workItem from="1635316690987" duration="6624000" />
+      <workItem from="1635502961682" duration="11925000" />
+      <workItem from="1635597242922" duration="2428000" />
+      <workItem from="1635745873130" duration="1720000" />
+      <workItem from="1636055826729" duration="4455000" />
+      <workItem from="1636063969476" duration="1653000" />
+      <workItem from="1636065681245" duration="2049000" />
+    </task>
+    <task id="LOCAL-00001" summary="Quiz API and db structure">
+      <created>1631530877441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631530877443</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backend api changes">
+      <created>1633405807213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633405807213</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Username fix">
+      <created>1633505726182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633505726183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Group functionality for batch + Email templates">
+      <created>1634015709430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634015709430</updated>
+    </task>
+    <task id="LOCAL-00005" summary="syllabus">
+      <created>1634473880137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634473880138</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Syllabus + Batch Groups + Added group in Batch User">
+      <created>1634764566558</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634764566558</updated>
+    </task>
+    <task id="LOCAL-00007" summary="voucher code + email template for send payment details for batches">
+      <created>1635608463778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635608463778</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="246681000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3746803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2653791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Quiz API and db structure" />
+    <MESSAGE value="backend api changes" />
+    <MESSAGE value="Username fix" />
+    <MESSAGE value="Group functionality for batch + Email templates" />
+    <MESSAGE value="syllabus" />
+    <MESSAGE value="Syllabus + Batch Groups + Added group in Batch User" />
+    <MESSAGE value="voucher code + email template for send payment details for batches" />
+    <option name="LAST_COMMIT_MESSAGE" value="voucher code + email template for send payment details for batches" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/SyllabusTopicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/SyllabusTopicLesson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_21_020857_add_grou_id_columnto_batch_user_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_04_01_195254_create_batches_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Backend/BatchesResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/BatchGroupCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/BatchShowResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BatchUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/RegisterSuccessMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/user_created_by_admin_success.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="50" column="124" lean-forward="false" selection-start-line="50" selection-start-column="124" selection-end-line="50" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/Backend/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="140" column="73" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/UserCreatedByAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/UserResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/BatchesResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/UserCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_21_021057_add_group_id_to_batch_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_15_000923_create_syllabus_topic_lessons_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_14_234756_create_syllabus_topics_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_10_161844_create_batch_groups_schedules_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_02_194403_add_generated_pwd_column_to_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_09_27_205704_create_batch_groups_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_09_25_010309_add_verification_code_to_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_04_01_195638_create_batch_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_13_223359_create_courses_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_23_132827_create_events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_09_12_215857_create_results_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_29_232856_create_user_vouchers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="112" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="135" column="24" lean-forward="false" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/StudentShowResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_11_01_223535_add_fee_type_to_batches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/SearchTutorAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/TutorShowResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_10_29_232744_create_vouchers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/email_verification.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <marker date="1635535439027" expanded="true" signature="1453:1503" ph="..." />
+            <marker date="1635535439027" expanded="true" signature="1860:1909" ph="..." />
+            <marker date="1635535439027" expanded="true" signature="2256:2305" ph="..." />
+            <marker date="1635535439027" expanded="true" signature="2696:2744" ph="..." />
+            <marker date="1635535439027" expanded="true" signature="5571:5651" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/BatchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="218" column="40" lean-forward="true" selection-start-line="218" selection-start-column="40" selection-end-line="218" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Batch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/FeeType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/Backend/BatchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="140" column="38" lean-forward="true" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/Backend/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4338">
+          <caret line="258" column="47" lean-forward="false" selection-start-line="258" selection-start-column="47" selection-end-line="258" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/SendPaymentDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrdersShowResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/BatchUserResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="174" column="11" lean-forward="false" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/SendPaymentReceiptMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/payment_details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="84" column="47" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="84" selection-end-column="47" />
+          <folding>
+            <marker date="1635536948929" expanded="true" signature="1453:1503" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="1860:1909" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="2256:2305" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="2696:2744" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="4767:4790" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="6571:6601" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="6696:6742" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="7245:7294" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="7831:7866" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="8075:8096" ph="..." />
+            <marker date="1635536948929" expanded="true" signature="9206:9229" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_22_105729_create_orders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OrderStatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/payment_receipt.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="88" column="288" lean-forward="false" selection-start-line="88" selection-start-column="288" selection-end-line="88" selection-end-column="288" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1636067488292" expanded="true" signature="1453:1503" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="1860:1909" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="2256:2305" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="2696:2744" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="4798:4821" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="5583:5602" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="5583:5608" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="5815:5828" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="6195:6221" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="6428:6442" ph="..." />
+            <marker date="1636067488292" expanded="true" signature="8566:8589" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19873817" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
