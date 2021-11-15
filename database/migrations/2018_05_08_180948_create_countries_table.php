@@ -16,9 +16,7 @@ class CreateCountriesTable extends Migration
         Schema::create('countries', function (Blueprint $table) {
             Schema::disableForeignKeyConstraints();
             $table->increments('id');
-            $table->string('code');
             $table->string('name');
-            $table->integer('phone_code')->nullable();
         });
     }
 

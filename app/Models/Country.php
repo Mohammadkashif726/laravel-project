@@ -15,4 +15,7 @@ class Country extends Model
     public function states(){
         return $this->hasMany('App\Models\State','country_id');
     }
+    public function city(){
+        return $this->hasOne('App\Models\City', 'city_id');
+    }
 }

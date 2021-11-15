@@ -3,8 +3,8 @@
 use Illuminate\Http\Request;
 use App\Models\BlogCategories;
 use Illuminate\Support\Facades\Route;
-
-
+use App\Http\Controllers\CreateExperience;
+use App\Http\Controllers\DestinationController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -19,6 +19,11 @@ use Illuminate\Support\Facades\Route;
 /**
  * Auth Routes
  */
+
+Route::post('/test', [CreateExperience::class, 'store']);
+Route::post('/destination', [DestinationController::class, 'store']);
+
+ Route::get('/test', [CreateExperience::class, 'index']);
 
 Route::group(['namespace' => 'Auth'], function(){
     Route::post('signup','RegisterController@signup');

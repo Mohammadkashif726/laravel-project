@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Experience;
+use App\Models\City;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +23,13 @@ Route::get('/', function () {
 
 //Admin Auth Routes
 // Route::get('/', 'HomeController@index');
+
+Route::get('/posts', function(){
+    $experience = Experience::first();
+    $city = City::first();
+    
+});
+
 
 Route::group(['prefix'=> 'admin','namespace'=>'ADMIN'],function(){
     Route::get('login','Auth\LoginController@showLoginForm')->name('login');

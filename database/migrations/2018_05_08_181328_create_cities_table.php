@@ -17,11 +17,10 @@ class CreateCitiesTable extends Migration
             Schema::disableForeignKeyConstraints();
             $table->increments('id');
             $table->string('name');
-            $table->string('slug');
-            $table->string('active');
-            $table->integer('state_id')->unsigned()->index();
+            $table->integer('country_id')->unsigned()->index();
 
-            $table->foreign('state_id')->references('id')->on('states')->onDelete('cascade');
+            //$table->foreign('country_id')->references('id')->on('countries')->onDelete('cascade');
+
         });
     }
 
