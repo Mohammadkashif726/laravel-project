@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class City extends Model
 {
-    protected $fillable=['id',
+    protected $fillable=[
+        'id',
     'name',
     'country_id', //relation
 ];
@@ -20,5 +21,11 @@ class City extends Model
 
     public function experience(){
         return $this->belongsToMany('App\Models\Experience', 'experience_id');
+    }
+    public function cityexperience(){
+        return $this->hasMany('App\Models\CityExperience', 'experience_id');
+    }
+    public function tours(){
+        return $this->hasMany('App\Models\Tours', 'tours_id');
     }
 }

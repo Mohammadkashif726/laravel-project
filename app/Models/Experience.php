@@ -9,9 +9,8 @@ class Experience extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'Title',
-        'Description',
-        'Thumbnail'
+        'id',
+        'title',
     ];
     public function city(){
         return $this->belongsToMany('App\Models\City', 'city_id');

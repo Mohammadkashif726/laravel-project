@@ -15,18 +15,10 @@ class CreateExperiencesTable extends Migration
     {
         Schema::create('experiences', function (Blueprint $table) {
             $table->id();
-            $table->integer('experience_id')->unsigned()->index();
-            $table->string('Title');
-            $table->longText('Description');
-            $table->string('Thumbnails1')->nullable()->default('NA');
-            $table->string('Thumbnails2')->nullable()->default('NA');
-            $table->string('Thumbnails3')->nullable()->default('NA');
-            $table->string('Thumbnails4')->nullable()->default('NA');
-            $table->string('Thumbnails5')->nullable()->default('NA');
-            $table->string('Thumbnails6')->nullable()->default('NA');
-            $table->string('Thumbnails7')->nullable()->default('NA');
-            $table->string('Thumbnails8')->nullable()->default('NA');
+            $table->string('title');
             $table->timestamps();
+
+            //$table->foreign('experience_id')->references('id')->on('experiences')->onDelete('cascade');
         });
     }
 

@@ -17,6 +17,8 @@ class CreateCountriesTable extends Migration
             Schema::disableForeignKeyConstraints();
             $table->increments('id');
             $table->string('name');
+            $table->timestamps();
+
         });
     }
 
